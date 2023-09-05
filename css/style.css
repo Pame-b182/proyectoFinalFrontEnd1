@@ -1,0 +1,65 @@
+*{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+/* Inicio footer */
+footer{
+    background-color: #1E1E26;
+    color: white;
+    padding: 60px;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+.inputForm{
+    border-radius: 25px;
+    border: 0;
+    padding: 10px 15px 10px 15px;
+    margin-right: 10px;
+    width: 300px;
+}
+.btnForm{
+    background-color: #8B48BF;
+    color: white;
+    border: 0;
+    padding: 15px 25px 15px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.list{
+    list-style: none;
+}
+.listItemMenu{
+    color: white;
+    text-decoration: none;
+}
+.listMenu{
+    display: flex;
+    justify-content: center;
+    flex-direction: space-around;
+    line-height: 2rem;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.listMenuIzq{
+    padding-right: 90px;
+}
+.listMenuDer{
+    padding-left: 30px;
+}
+.listIcon{
+    display: flex;
+    justify-content: center;
+}
+.listItemIcon{
+    padding: 28px;
+}
+.logoFooter{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.copyright{
+    text-align: center;
+}
+/* Fin footer */
