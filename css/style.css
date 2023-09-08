@@ -1,88 +1,230 @@
 
+*{
+    /* border: solid darkblue; */
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
 
-@media (width <= 640px){
-    *{
-        /* border: solid darkblue; */
-        font-family: 'Be Vietnam Pro', sans-serif;
-        font-family: 'Roboto', sans-serif;
-    }
+/* Estilos de menú de navegación */
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-content: center;
+}
 
-    /* Estilos de menú de navegación */
-    .menu{
-        display: flex;
-        width: 100%;
-        justify-content: space-around;
-        align-content: center;
-    }
+.elementosNav{
+    padding: 1rem;
+}
 
-    .elementosNav{
-        padding: 1rem;
-    }
+.logotipo{
+    max-width: 100%;
+    flex: initial;
+    position: relative;
+    right: 2rem;
+}
 
-    .logotipo{
-        max-width: 100%;
-        flex: initial;
-        position: relative;
-        left: -4rem;
-    }
-
-    .menuBurger{
-        width: 2.8rem;
-        position: relative;
-        left: 1.5rem;        
-    } 
+.menuBurger{
+    width: 2.8rem;
+    position: relative;
+    left: 1.5rem;        
+} 
 
 
-    /* Estilos de la primer seccción de la página */
+/* Estilos de la primer seccción de la página */
 
-    .pantalla{
-        box-sizing: border-box;
-    }
+.pantalla{
+    box-sizing: border-box;
+}
 
-    .padelJugador{
-        width: 82%;
-        max-width: 100%;
-        padding: 2rem 2rem;
-    }
+.padelJugador{
+    width: 82%;
+    max-width: 100%;
+    padding: 2rem 2rem;
+}
 
-    .openMexico{
-        border: solid greenyellow; /*Area de trabajo */
-        display: flex;
-        width: 100%;
-        padding-right: 0.8rem;
-        margin-top: 1.7rem;
-        box-sizing: border-box;
-        flex-direction: column;
-        align-items: end;
-    }
+.openMexico{
+    display: flex;
+    width: 100%;
+    padding-right: 0.8rem;
+    margin-top: 1.7rem;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: end;
+}
+
+.hijosOpenMex{
+    padding-right: 8%;
+    text-align: end;
+}
+
+.saltoLinea{
+    display: block;
+}
+
+.encabezadoOM{
+    color: #232C50;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.parrafoOM{
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.hijosOpenMex button{
+    background-color: #8B48BF;
+    color: #FFFFFF;
+    border-radius: 2em;
+    border:none;
+    font-weight: lighter;
+    font-size: 0.8rem;
+}
+
+
+/* Segunda parte pros de padel */
+.prosPadel{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1.5rem;
+    box-sizing: border-box;
+}
+
+.diffPro{
+    background-color: #3CDDF3;
+    color: #FFFFFF;
+    /* width: 100%; */
+    padding-left: 1.5rem;
+}
+
+.cualidadPro{
+    box-sizing: border-box;
+    padding-left: 1.3rem;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.cualidadPro p{
+    display: flex;
+    box-sizing: border-box;
+    height: 2rem;
+}
+
+.cualidadPro p > span:first-of-type{
+    display: flex;
+    background-color: #8B48BF;
+    color: #FFFFFF;
+    border-radius: 2em;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+}
+
+.cualidadPro p > span:first-of-type + span{
+    display: flex;
+    background-color: #DCC8EC;
+    width: 100%;
+    padding-left: 1.3rem;
+    align-items: center;
     
-    .hijosOpenMex{
-        padding-right: 8%;
-        text-align: end;
-    }
+}
 
-    .saltoLinea{
-        display: block;
-    }
+p.cualidadText{
+    color: #B3B2B7;
+}
+/* Inicio Section Go for it */
+.upFooter{
+    align-items: center;
+    background-color: #3CDDF3;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+    padding: 30px 80px;
+}
+.textUpFooter{
+    line-height: 0.3;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.btnUpFooter{
+    background-color: #232851;
+    border: 0;
+    border-radius: 25px;
+    box-shadow: 0px 5px rgba(0,0,0,0.1);
+    color: white;
+    font-weight: bold;
+    padding: 15px 40px;
+}
+/* Fin Section Go for it */
 
-    .encabezadoOM{
-        color: #232C50;
-        font-weight: 700;
-        font-size: 2rem;
-    }
+/* Inicio footer */
+footer{
+    background-color: #1E1E26;
+    color: white;
+    padding: 60px;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+.inputForm{
+    border-radius: 25px;
+    border: 0;
+    margin-right: 10px;
+    padding: 10px 15px;
+    width: 300px;
+}
+.btnForm{
+    background-color: #8B48BF;
+    border: 0;
+    border-radius: 25px;    
+    color: white;
+    font-weight: bold;
+    padding: 15px 25px;
+}
+.list{
+    list-style: none;
+}
+.listItemMenu{
+    color: white;
+    text-decoration: none;
+}
+.listMenu{
+    display: flex;
+    flex-direction: space-around;
+    font-weight: bold;
+    justify-content: center;
+    line-height: 2rem;
+    padding-top: 30px;
+}
+.listMenuIzq{
+    padding-right: 90px;
+}
+.listMenuDer{
+    padding-left: 30px;
+}
+.listIcon{
+    display: flex;
+    justify-content: center;
+}
+.listItemIcon{
+    padding: 28px;
+}
+.logoFooter{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.copyright{
+    text-align: center;
+}
+/* Fin footer */
 
-    .parrafoOM{
-        font-size: 1rem;
-        font-weight: 100;
-    }
 
-    .hijosOpenMex button{
-        background-color: #8B48BF;
-        color: #FFFFFF;
-        border-radius: 2em;
-        border:none;
-        font-weight: lighter;
-        font-size: 0.8rem;
-    }
-
+@media (width >= 1024px){
+    
 }
