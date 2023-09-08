@@ -13,6 +13,10 @@
     align-content: center;
 }
 
+.menuLigas{
+    display: none;
+}
+
 .elementosNav{
     padding: 1rem;
 }
@@ -29,6 +33,10 @@
     position: relative;
     left: 1.5rem;        
 } 
+
+.botonUpContanto{
+    display: none;
+}
 
 
 /* Estilos de la primer seccción de la página */
@@ -73,13 +81,19 @@
     font-weight: 100;
 }
 
-.hijosOpenMex button{
+.hijosOpenMex button, .botonUpContanto{
     background-color: #8B48BF;
     color: #FFFFFF;
     border-radius: 2em;
     border:none;
     font-weight: lighter;
     font-size: 0.8rem;
+    display: flex;
+    width: 5rem;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    margin-top: 0.5rem;
 }
 
 
@@ -226,5 +240,82 @@ form{
 
 
 @media (width >= 1024px){
+    .menu{
+        margin-top: 2.5rem;
+    }
+    .menuBurger{
+        display: none;
+    } 
+
+    .menuLigas{
+        display: flex;
+        width: 40%;
+        justify-content: space-around;
+    }
+
+    .menuLigas li{
+        list-style: none;
+        font-size: 13px;
+        font-weight: normal;
+    }
     
+    .botonUpContanto{
+        display: flex;
+        width: 5rem;
+        justify-content: center;
+        align-items: center;
+        height: 2rem;
+        margin-top: 0.5rem;
+    }
+
+    .pantalla{
+        display: flex;
+        box-sizing: border-box;
+        /* box-sizing: content-box; */
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .padelJugador{
+        display: flex;
+        width: 50%;
+        max-width: 50%;
+        padding: 2rem 2rem;
+    }
+    
+    .openMexico{
+        display: flex;
+        width: 50%;
+        padding-right: 0.8rem;
+        margin-top: 1.7rem;
+        box-sizing: border-box;
+    }
+
+    .diffPro{
+        background-color: #8B48BF;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .listaRasgosUp{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .listaRasgosDown{
+        display: flex;
+        box-sizing: content-box;
+        justify-content: center;
+        
+    }
+
+    .tercerCualidad{
+        width: 50%;
+    }
+
+    .cualidadPro p > span:first-of-type + span{ 
+        background-color: #FFFFFF;
+    }
 }
