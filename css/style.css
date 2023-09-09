@@ -74,6 +74,10 @@
     font-size: 2rem;
 }
 
+.encabezadoDesk{
+    display: none;
+}
+
 .parrafoOM{
     font-size: 1rem;
     font-weight: 100;
@@ -126,13 +130,13 @@
     padding-left: 1.3rem;
     width: 100%;
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
 }
 
 .cualidadPro p{
     display: flex;
     box-sizing: border-box;
-    height: 2rem;
+    height: 1rem;
 }
 
 .cualidadPro p > span:first-of-type{
@@ -154,13 +158,15 @@
     width: 100%;
     padding-left: 1.3rem;
     align-items: center;
+    font-weight: bold;
     
 }
 
 p.cualidadText{
     color: #B3B2B7;
-    padding-left: 1.3rem;
-    line-height: 1.5rem;
+    padding-left: 1.5rem;
+    line-height: 1.3rem;
+    font-weight: normal;
 }
 
 /* Inicio Section best of the month */
@@ -381,6 +387,28 @@ form{
     box-shadow: 0px 5px rgba(0,0,0,0.1);
 }
 
+.encabezadoOM{
+    display: none;
+}
+
+.encabezadoDesk{
+    display: block;
+    color: #232C50;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.parrafoOM{
+    display: none;
+}
+
+.finalWorldPanelDSK{
+    display: block;
+    text-align: start;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
 .pantalla{
     display: flex;
     box-sizing: border-box;
@@ -402,6 +430,8 @@ form{
     padding-right: 0.8rem;
     margin-top: 1.7rem;
     box-sizing: border-box;
+    flex-direction: column;
+    align-items: end;
 }
 
 .diffPro{
@@ -412,7 +442,9 @@ form{
 }
 
 .cualidadPro p > span:first-of-type {
-    width: 13%;
+    width: 3rem;
+    height: 1.4rem;
+    font-weight: bold;
 }
 
 .diffMobile{
@@ -431,6 +463,12 @@ form{
 .texto4Desk{
     display: block;
     padding-right: 156px;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.latin4Desk{
+    line-height: 1.3    rem;
 }
 
 .listaRasgosUp{
@@ -451,7 +489,9 @@ form{
 
 .cualidadPro p > span:first-of-type + span{
     background-color: rgb(249, 249, 249);
+    font-weight: bold;
 }
+
 
 .tercerCualidad{
     width: 50%;
