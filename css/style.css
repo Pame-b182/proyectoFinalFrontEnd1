@@ -136,6 +136,57 @@ p.cualidadText{
     color: #B3B2B7;
     padding-left: 1.3rem;
 }
+
+/* Inicio Section best of the month */
+.titleBestMonth{
+    color: #232851;
+    font-size: 40px;
+}
+.bestMonth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.articleLebron{
+    background-color: rgb(249, 249, 249);
+    position: relative;
+    margin: 40px 0px ;
+    padding: 40px 30px 10px 30px;
+    text-align: center;
+    width: 102%;
+}
+.imgLebron{
+    position: absolute;
+    bottom: 83%;
+    left: 42%;
+}
+.articleSanyo{
+    display: none;
+}
+.articleNavarro{
+    display: none;
+}
+.titleLebron{
+    color:#232851
+}
+.textLebron{
+    color: rgb(119, 119, 119);
+
+    line-height: 1.5rem;
+    text-align: center;
+
+}
+.btnMore{
+    background-color: #8B48BF;
+    border: 0;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 50px;
+}
+.btnMore:hover{
+    opacity: 0.5;
+}
 /* Inicio Section Go for it */
 .upFooter{
     align-items: center;
