@@ -227,6 +227,11 @@ p.cualidadText{
 .btnUpFooter:hover{
     background-color: #b29cc3;
 }
+
+.divBestMonth{
+    display: flex;
+    width: 115%;
+}
 /* Fin Section Go for it */
 
 /* Inicio footer */
@@ -249,6 +254,9 @@ form{
 }
 .inputForm:focus{
     background-color: #b093c5;
+}
+.inputForm::placeholder{
+    color: rgb(161, 158, 158);
 }
 .btnForm{
     background-color: #8B48BF;
@@ -299,6 +307,7 @@ form{
     text-align: center;
 
 }
+
 
 /* Fin footer */
 
