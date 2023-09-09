@@ -79,7 +79,7 @@
     font-weight: 100;
 }
 
-.hijosOpenMex button, .botonUpContanto{
+.hijosOpenMex button{
     background-color: #8B48BF;
     color: #FFFFFF;
     border-radius: 2em;
@@ -299,6 +299,7 @@ form{
     text-align: center;
 
 }
+
 /* Fin footer */
 
 /* ////Media Query para vista en Desktop//// */
@@ -309,7 +310,7 @@ form{
 }
 .menuBurger{
     display: none;
-} 
+}
 
 .menuLigas{
     display: flex;
@@ -324,6 +325,13 @@ form{
 }
 
 .botonUpContanto{
+    display: flex;
+    background-color: #8B48BF;
+    color: #FFFFFF;
+    border-radius: 2em;
+    border:none;
+    font-weight: lighter;
+    font-size: 0.8rem;
     display: flex;
     width: 5rem;
     justify-content: center;
