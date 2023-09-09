@@ -372,7 +372,6 @@ form{
 }
 
 
-
 /* .menuLigas li a:active{
     box-shadow: 2px 2px 5px #a669c9;
 } */
@@ -449,15 +448,25 @@ form{
     flex-direction: row;
     justify-content: space-around;
 }
-.cualidadPro{
-    
-}
+
 
 .cualidadPro p > span:first-of-type {
     width: 3rem;
     height: 1.4rem;
     font-weight: bold;
     padding: 10px 15px;
+    position: relative;
+    right: 2rem;
+    left: -1rem;
+    bottom: 1rem; 
+    /* width: 3rem;
+    height: 1.4rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    position: relative;
+    right: 2rem;
+    left: -1rem;
+    bottom: 1rem; */
 }
 
 .diffMobile{
