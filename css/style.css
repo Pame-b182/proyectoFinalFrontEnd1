@@ -121,6 +121,8 @@
     justify-content: center;
     align-items: center;
     width: 15%;
+    position: relative;
+    left: 0.7rem;
 }
 
 .cualidadPro p > span:first-of-type + span{
@@ -134,6 +136,7 @@
 
 p.cualidadText{
     color: #B3B2B7;
+    padding-left: 1.3rem;
 }
 /* Inicio Section Go for it */
 .upFooter{
