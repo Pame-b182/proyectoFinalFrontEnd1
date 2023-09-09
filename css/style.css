@@ -1,6 +1,58 @@
 *{
     font-family: 'Be Vietnam Pro', sans-serif;
 }
+/* Inicio Section best of the month */
+.titleBestMonth{
+    color: #232851;
+    font-size: 40px;
+}
+.bestMonth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.articleLebron{
+    background-color: rgb(249, 249, 249);
+    position: relative;
+    margin: 40px 0px ;
+    padding: 40px 30px 10px 30px;
+    text-align: center;
+    width: 102%;
+}
+.imgLebron{
+    position: absolute;
+    bottom: 83%;
+    left: 42%;
+}
+.articleSanyo{
+    display: none;
+}
+.articleNavarro{
+    display: none;
+}
+.titleLebron{
+    color:#232851
+}
+.textLebron{
+    color: rgb(119, 119, 119);
+
+    line-height: 1.5rem;
+    text-align: center;
+
+}
+.btnMore{
+    background-color: #8B48BF;
+    border: 0;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 50px;
+}
+.btnMore:hover{
+    opacity: 0.5;
+}
+/* Fin Section best of the month */
+
 /* Inicio Section Go for it */
 .upFooter{
     align-items: center;
@@ -8,7 +60,7 @@
     color: white;
     display: flex;
     flex-direction: column;
-    font-size: 28px;
+    font-size: 24px;
     padding: 30px 80px;
 }
 .textUpFooter{
@@ -22,8 +74,10 @@
     border-radius: 25px;
     box-shadow: 0px 5px rgba(0,0,0,0.1);
     color: white;
-    font-weight: bold;
     padding: 15px 40px;
+}
+.btnUpFooter:hover{
+    background-color: #b29cc3;
 }
 /* Fin Section Go for it */
 
@@ -43,14 +97,20 @@ form{
     margin-right: 10px;
     padding: 10px 15px;
     width: 300px;
+    font-weight: bold;
+}
+.inputForm:focus{
+    background-color: #b093c5;
 }
 .btnForm{
     background-color: #8B48BF;
     border: 0;
     border-radius: 25px;    
     color: white;
-    font-weight: bold;
     padding: 15px 25px;
+}
+.btnForm:hover{
+    background-color: #bf48b7;
 }
 .list{
     list-style: none;
@@ -62,7 +122,6 @@ form{
 .listMenu{
     display: flex;
     flex-direction: space-around;
-    font-weight: bold;
     justify-content: center;
     line-height: 2rem;
     padding-top: 30px;
@@ -86,6 +145,152 @@ form{
     padding-bottom: 30px;
 }
 .copyright{
+    color: rgb(110, 110, 110);
+    font-size: 12px;
+    font-weight: 600;
     text-align: center;
+
 }
 /* Fin footer */
+
+/* ////Media Query para vista en Desktop//// */
+@media (min-width: 481px ){
+/* Inicio Section best of the month */
+.bestMonth{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+.divBestMonth{
+    position: relative;
+    margin-bottom: -420px;
+}
+.articleSanyo{
+    display: inline-block;
+    background-color: rgb(249, 249, 249);
+    padding: 40px 0px 10px 0px;
+    position: relative;
+    text-align: center;
+    width: 30%;
+    top: 65px;
+    left: 24px;
+}
+.imgSanyo{
+    position: absolute;
+    bottom: 83%;
+    left: 42%;
+}
+.titleSanyo{
+    color:#232851
+}
+.textSanyo{
+    color: rgb(119, 119, 119);
+    line-height: 1.5rem;
+    text-align: center;
+}
+.articleLebron{
+    width: 30%;
+    padding: 40px 0px 10px 0px;
+    left: 420px;
+    bottom: 200px;
+}
+.articleNavarro{
+    display: inline-block;
+    background-color: rgb(249, 249, 249);
+    padding: 40px 0px 10px 0px;
+    position: relative;
+    text-align: center;
+    width: 30%;
+    bottom: 465px;
+    left: 810px;
+}
+.imgNavarro{
+    position: absolute;
+    bottom: 83%;
+    left: 42%;
+}
+.titleNavarro{
+    color:#232851
+}
+.textNavarro{
+    color: rgb(119, 119, 119);
+    line-height: 1.5rem;
+    text-align: center;
+}
+/* Fin Section best of the month */
+
+/* Inicio Section Go for it */
+.upFooter{
+    background-color: #8B48BF;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 80px;
+}
+.textUpFooter1{
+    display:inline;
+}
+.divTextUpFooter1{
+    position: relative;
+    left: 20px;
+    
+}
+.divTextUpFooter2{
+    position: relative;
+    top: 35px;
+    left: 20px;
+}
+.h2Get{
+    margin-left: 60px;
+}
+.btnUpFooter{
+    background-color: white;
+    color: #8B48BF;
+    font-weight: bold;
+    margin-right: 125px;
+}
+/* Fin Section Go for it */
+
+/* Inicio Footer */
+footer{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0px 0px 50px 0px;
+}
+.copyright{
+    order: -1;
+    align-self: flex-end;
+    position: relative;
+    right: 150px;
+}
+.articleListIcon{
+    align-self: end;
+    position: relative;
+    right: 160px;
+}
+.logoFooter{
+    align-self:flex-start;
+    position: relative;
+    top: 40px;
+}
+.listItemIcon{
+    padding: 5px;
+}
+form{
+    align-self: flex-start;
+    position: relative;
+    top: 50px;
+    left: 70px;
+}
+.inputForm{
+    width: 190px;
+}
+.listMenu{
+    position: relative;
+    right: 80px;
+}
+.listMenuIzq{
+    padding-right: 180px;
+}
+/* Fin Footer */
+}

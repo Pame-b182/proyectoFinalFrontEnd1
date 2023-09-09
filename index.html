@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
@@ -21,34 +24,41 @@
     <main>
 
 
-        <section>
-            <h2>Best of the month</h2>
-            <article>
-                <img src="img/avatar-sanyo.png" alt="Sanyo">
-                <h4>Sanyo</h4>
-                <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu
-                    neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-            </article>
-            <article>
-                <img src="img/avatar.lebron.png" alt="Lebron">
-                <h4>Lebron</h4>
-                <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu
-                    neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-            </article>
-            <article>
-                <img src="img/avatar-navarro.png" alt="Navarro">
-                <h4>Navarro</h4>
-                <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu
-                    neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-            </article>
-            <button>More</button>
+        <section class="bestMonth">
+            <h2 class="titleBestMonth">Best of the month</h2>
+            <div class="divBestMonth">
+                <article class="articleSanyo">
+                    <img class="imgSanyo" src="img/avatar-sanyo.png" alt="Sanyo">
+                    <h4 class="titleSanyo">Sanyo</h4>
+                    <p class="textSanyo">Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu
+                        neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                </article>
+                <article class="articleLebron">
+                    <img class="imgLebron" src="img/avatar.lebron.png" alt="Lebron">
+                    <h4 class="titleLebron">Lebron</h4>
+                    <p class="textLebron">Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut
+                        suscipit massa ipsum eu
+                        neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                </article>
+                <article class="articleNavarro">
+                    <img class="imgNavarro" src="img/avatar-navarro.png" alt="Navarro">
+                    <h4 class="titleNavarro">Navarro</h4>
+                    <p class="textNavarro">Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu
+                        neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                </article>
+            </div>
+            <button class="btnMore">More</button>
         </section>
         <section class="upFooter">
             <div class="textUpFooter">
-                <h3>Get to know the</h3>
-                <h3>best</h3>
-                <h3>teams of the</h3>
-                <h3>year</h3>
+                <div class="divTextUpFooter1">
+                    <h2 class="textUpFooter1 h2Get">Get to know the</h2>
+                    <h2 class="textUpFooter1">best</h2>
+                </div>
+                <div class="divTextUpFooter2">
+                    <h2 class="textUpFooter1">teams of the</h2>
+                    <h2 class="textUpFooter1">year</h2>
+                </div>
             </div>
             <button class="btnUpFooter">Go for it</button>
         </section>
@@ -72,7 +82,7 @@
                     </div>
                 </ul>
             </article>
-            <article>
+            <article class="articleListIcon">
                 <ul class="list listIcon">
                     <li><img class="listItemIcon" src="img/icon-facebook.svg" alt="Ícono Facebook"></li>
                     <li><img class="listItemIcon" src="img/icon-youtube.svg" alt="Ícono Youtube"></li>
